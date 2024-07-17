@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    background-color: #2980b9;
 }
 
 .main-login{
@@ -22,6 +23,8 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+
 
 .div-left h1{
     color: #ffffff;
@@ -118,6 +121,25 @@ body{
     .card-login{
         width: 85%;
     }
+}
+
+@media (max-width: 800px)
+{
+    .div-left h1
+    {
+        z-index: 99;
+        margin-top: 1em;
+        margin-bottom: 0px;
+        font-size: 22px;
+    }
+    .card-login 
+    {
+        margin-top: 60px;
+    }
+    .main-login{
+        flex-direction: column-reverse;
+    }
+
 }
 
 
